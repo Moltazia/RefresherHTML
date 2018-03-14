@@ -1,0 +1,35 @@
+/* css kommentar */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: black; /* eller Hex*/
+}
+
+nav {
+  background-color: black;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: red;
+}
+
+#articles {
+  background-color: white;
+  padding: 1em;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
